@@ -1,0 +1,246 @@
+{
+  "brand": {
+    "name": "LUFT",
+    "tagline": "Take a breath."
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong.",
+    "retry": "Try again",
+    "back": "Back",
+    "close": "Close",
+    "viewAll": "View all",
+    "addToCart": "Add to cart",
+    "added": "Added",
+    "currency": "RSD",
+    "prev": "Previous",
+    "next": "Next",
+    "openMenu": "Open menu",
+    "search": "Search"
+  },
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "sets": "Sets",
+    "favorites": "Favorites",
+    "profile": "Profile",
+    "cart": "Cart",
+    "alek": "Alek"
+  },
+  "hero": {
+    "titleLead": "Hey, what are we drinking",
+    "titleEm": "today?",
+    "subLine1": "Tell us what you are planning,",
+    "subLine2": "and we will choose the wine for you.",
+    "cta": "What should I drink tonight?",
+    "orPick": "or pick a moment",
+    "imageAlt": "A bottle of rosé and two glasses on a stone table"
+  },
+  "situations": {
+    "vecera": "Dinner",
+    "dejt": "Date",
+    "drustvo": "Friends",
+    "poklon": "Gift",
+    "ne-znam": "Not sure"
+  },
+  "featured": {
+    "title": "Featured for you"
+  },
+  "trust": {
+    "quoteLine1": "Wine is not only what we drink.",
+    "quoteLine2": "It is the moments we remember.",
+    "deliveryTitle": "Fast delivery",
+    "deliveryNote": "1–2 working days",
+    "packagingTitle": "Careful packaging",
+    "packagingNote": "Safe and elegant",
+    "originalTitle": "100% original wines",
+    "originalNote": "Quality guaranteed",
+    "supportTitle": "Support 24/7",
+    "supportNote": "We are here for you"
+  },
+  "how": {
+    "title": "How does LUFT work?",
+    "step1": "Tell us the moment",
+    "step2": "Alek picks for you",
+    "step3": "Learn more",
+    "step4": "Order easily",
+    "screenSearch": "Search",
+    "screenDetail": "Wine details",
+    "screenPairing": "Pairing",
+    "screenAlek": "Ask Alek",
+    "screenCart": "Cart",
+    "screenCheckout": "Checkout"
+  },
+  "alekBand": {
+    "line1": "No time to choose?",
+    "line2": "Leave it to Alek.",
+    "line3": "You just enjoy.",
+    "cta": "Ask Alek"
+  },
+  "highlights": {
+    "sectionTitle": "Featured",
+    "todayTitle": "Today's pick",
+    "todayBody": "Alek chooses one wine for you every day.",
+    "todayCta": "Discover today",
+    "trendingTitle": "Trending",
+    "trendingBody": "See what everyone is drinking and loving.",
+    "trendingCta": "Take a look",
+    "setsTitle": "Sets",
+    "setsBody": "Carefully curated sets for every occasion.",
+    "setsCta": "Take a look"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search wine, grape, winery…",
+    "popularGrapes": "Popular grapes",
+    "countries": "Countries",
+    "type": "Wine type",
+    "clear": "Clear filters",
+    "results_one": "{{count}} wine",
+    "results_other": "{{count}} wines",
+    "empty": "No wines match these filters.",
+    "emptyHint": "Try removing a filter, or ask Alek."
+  },
+  "wineType": {
+    "belo": "White",
+    "crveno": "Red",
+    "rose": "Rosé",
+    "pjenusavo": "Sparkling"
+  },
+  "detail": {
+    "ratings": "({{count}})",
+    "pairsWith": "Goes well with",
+    "about": "About this wine",
+    "alcohol": "Alcohol",
+    "vintage": "Vintage",
+    "region": "Region",
+    "grape": "Grape",
+    "favorite": "Save to favorites",
+    "unfavorite": "Remove from favorites",
+    "notFound": "This wine does not exist.",
+    "seePairings": "See pairings"
+  },
+  "pairing": {
+    "title": "Pairing",
+    "food": "Food",
+    "occasions": "Occasions",
+    "odlicno": "Excellent match",
+    "dobro": "Good match",
+    "dishes": {
+      "losos": "Grilled salmon",
+      "pastaPesto": "Pasta with pesto",
+      "salate": "Fresh salads",
+      "sushi": "Sushi",
+      "steak": "Steak",
+      "sir": "Cheese board",
+      "pastaBolonjeze": "Pasta bolognese",
+      "rostilj": "Barbecue",
+      "aperitiv": "Aperitif",
+      "ostrige": "Oysters",
+      "desert": "Dessert"
+    }
+  },
+  "alek": {
+    "title": "Ask Alek",
+    "subtitle": "Your personal sommelier",
+    "placeholder": "Ask something…",
+    "send": "Send",
+    "intro": "Hi! Tell me what you are cooking or what kind of evening it is, and I will suggest a wine.",
+    "thinking": "Alek is thinking…",
+    "suggestions": {
+      "s1": "I am making salmon and steamed vegetables tonight. What should I drink?",
+      "s2": "I need a birthday gift.",
+      "s3": "Barbecue with friends on Saturday."
+    },
+    "reply": {
+      "belo": "Great! I suggest a fresh white with bright acidity. Try this one:",
+      "crveno": "That calls for something fuller. I suggest a red with soft tannins:",
+      "rose": "I suggest a rosé — light enough, and just fruity enough:",
+      "pjenusavo": "The occasion calls for bubbles. Here is my pick:"
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "emptyHint": "Let Alek find you something.",
+    "remove": "Remove",
+    "increase": "Add one more",
+    "decrease": "Reduce quantity",
+    "delivery": "Delivery",
+    "total": "Total",
+    "checkout": "Continue to payment",
+    "keepShopping": "Keep shopping"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "stepAddress": "Address",
+    "stepDelivery": "Delivery",
+    "stepPayment": "Payment",
+    "addressTitle": "Delivery address",
+    "fullName": "Full name",
+    "address": "Address",
+    "city": "City",
+    "phone": "Phone number",
+    "deliveryTitle": "Delivery method",
+    "standard": "Standard delivery",
+    "standardNote": "1–2 working days",
+    "express": "Express delivery",
+    "expressNote": "Same day, until 6pm",
+    "paymentTitle": "Payment method",
+    "card": "Card",
+    "cardNote": "Visa, Mastercard, Dina",
+    "cash": "Cash on delivery",
+    "cashNote": "Pay the courier on arrival",
+    "continue": "Continue",
+    "placeOrder": "Place order",
+    "required": "This field is required",
+    "successTitle": "Thank you!",
+    "successBody": "Your order is in. We will let you know as soon as it ships.",
+    "backHome": "Back to home"
+  },
+  "sets": {
+    "title": "Sets",
+    "subtitle": "Carefully curated sets for every occasion.",
+    "bottles_one": "{{count}} bottle",
+    "bottles_other": "{{count}} bottles"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "empty": "You have not saved any wines yet.",
+    "emptyHint": "Tap the heart on any wine."
+  },
+  "profile": {
+    "title": "Profile",
+    "note": "Sign-in and accounts are coming. Everything here is mocked for now.",
+    "orders": "My orders",
+    "addresses": "Addresses",
+    "settings": "Settings",
+    "language": "Language"
+  },
+  "trending": {
+    "title": "Trending",
+    "subtitle": "See what everyone is drinking and loving."
+  },
+  "today": {
+    "title": "Today's pick",
+    "subtitle": "Alek chooses one wine for you every day."
+  },
+  "footer": {
+    "shop": "Shop",
+    "about": "About",
+    "help": "Help",
+    "aboutUs": "Our story",
+    "contact": "Contact",
+    "delivery": "Delivery and payment",
+    "returns": "Returns",
+    "terms": "Terms of use",
+    "privacy": "Privacy policy",
+    "rights": "All rights reserved.",
+    "disclaimer": "Sale of alcoholic beverages is permitted to adults only."
+  },
+  "notFound": {
+    "title": "This page does not exist",
+    "body": "It may have had one too many.",
+    "cta": "Back to home"
+  }
+}

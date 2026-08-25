@@ -1,0 +1,248 @@
+{
+  "brand": {
+    "name": "LUFT",
+    "tagline": "Uzmi luft."
+  },
+  "common": {
+    "loading": "Učitavanje…",
+    "error": "Nešto nije u redu.",
+    "retry": "Pokušaj ponovo",
+    "back": "Nazad",
+    "close": "Zatvori",
+    "viewAll": "Pogledaj sve",
+    "addToCart": "Dodaj u korpu",
+    "added": "Dodato",
+    "currency": "RSD",
+    "prev": "Prethodno",
+    "next": "Sledeće",
+    "openMenu": "Otvori meni",
+    "search": "Pretraga"
+  },
+  "nav": {
+    "home": "Početna",
+    "search": "Pretraga",
+    "sets": "Setovi",
+    "favorites": "Favoriti",
+    "profile": "Profil",
+    "cart": "Korpa",
+    "alek": "Alek"
+  },
+  "hero": {
+    "titleLead": "Hej, šta pijemo",
+    "titleEm": "danas?",
+    "subLine1": "Reci nam šta planiraš,",
+    "subLine2": "a mi biramo vino za tebe.",
+    "cta": "Šta da pijem večeras?",
+    "orPick": "ili izaberi situaciju",
+    "imageAlt": "Flaša rosé vina i dve čaše na kamenom stolu"
+  },
+  "situations": {
+    "vecera": "Večera",
+    "dejt": "Dejt",
+    "drustvo": "Društvo",
+    "poklon": "Poklon",
+    "ne-znam": "Ne znam šta hoću"
+  },
+  "featured": {
+    "title": "Izdvajamo za tebe"
+  },
+  "trust": {
+    "quoteLine1": "Vino nije samo ono što pijemo.",
+    "quoteLine2": "To su trenuci koje pamtimo.",
+    "deliveryTitle": "Brza dostava",
+    "deliveryNote": "1–2 radna dana",
+    "packagingTitle": "Pažljivo pakovanje",
+    "packagingNote": "Sigurno i elegantno",
+    "originalTitle": "100% originalna vina",
+    "originalNote": "Garancija kvaliteta",
+    "supportTitle": "Podrška 24/7",
+    "supportNote": "Tu smo za tebe"
+  },
+  "how": {
+    "title": "Kako funkcioniše LUFT?",
+    "step1": "Reci nam situaciju",
+    "step2": "Alek bira za tebe",
+    "step3": "Saznaj više",
+    "step4": "Naruči lako",
+    "screenSearch": "Pretraga",
+    "screenDetail": "Detalji vina",
+    "screenPairing": "Uparivanje",
+    "screenAlek": "Pitaj Aleka",
+    "screenCart": "Korpa",
+    "screenCheckout": "Checkout"
+  },
+  "alekBand": {
+    "line1": "Nemaš vremena da biraš?",
+    "line2": "Prepusti Aleku.",
+    "line3": "Ti uživaj.",
+    "cta": "Pitaj Aleka"
+  },
+  "highlights": {
+    "sectionTitle": "Izdvajamo",
+    "todayTitle": "Današnja preporuka",
+    "todayBody": "Alek svakog dana bira jedno vino za tebe.",
+    "todayCta": "Otkrij danas",
+    "trendingTitle": "Trending",
+    "trendingBody": "Otkrij šta drugi danas piju i vole.",
+    "trendingCta": "Pogledaj",
+    "setsTitle": "Setovi",
+    "setsBody": "Pažljivo odabrani setovi za svaku priliku.",
+    "setsCta": "Pogledaj"
+  },
+  "search": {
+    "title": "Pretraga",
+    "placeholder": "Pretraži vino, sortu, vinariju…",
+    "popularGrapes": "Popularne sorte",
+    "countries": "Zemlje",
+    "type": "Tip vina",
+    "clear": "Poništi filtere",
+    "results_one": "{{count}} vino",
+    "results_few": "{{count}} vina",
+    "results_other": "{{count}} vina",
+    "empty": "Nema vina za ove filtere.",
+    "emptyHint": "Probaj da skloniš neki filter ili pitaj Aleka."
+  },
+  "wineType": {
+    "belo": "Belo",
+    "crveno": "Crveno",
+    "rose": "Rosé",
+    "pjenusavo": "Pjenušavo"
+  },
+  "detail": {
+    "ratings": "({{count}})",
+    "pairsWith": "Uz šta ide",
+    "about": "O vinu",
+    "alcohol": "Alkohol",
+    "vintage": "Berba",
+    "region": "Region",
+    "grape": "Sorta",
+    "favorite": "Sačuvaj u favorite",
+    "unfavorite": "Ukloni iz favorita",
+    "notFound": "Ovo vino ne postoji.",
+    "seePairings": "Vidi uparivanja"
+  },
+  "pairing": {
+    "title": "Uparivanje",
+    "food": "Hrana",
+    "occasions": "Prilike",
+    "odlicno": "Odlično se slaže",
+    "dobro": "Dobro se slaže",
+    "dishes": {
+      "losos": "Losos na žaru",
+      "pastaPesto": "Pasta sa pesto sosom",
+      "salate": "Sveže salate",
+      "sushi": "Sushi",
+      "steak": "Stek",
+      "sir": "Plato sireva",
+      "pastaBolonjeze": "Pasta bolonjeze",
+      "rostilj": "Roštilj",
+      "aperitiv": "Aperitiv",
+      "ostrige": "Ostrige",
+      "desert": "Desert"
+    }
+  },
+  "alek": {
+    "title": "Pitaj Aleka",
+    "subtitle": "Tvoj lični someljer",
+    "placeholder": "Pitaj nešto…",
+    "send": "Pošalji",
+    "intro": "Zdravo! Reci mi šta kuvaš ili kakvo je veče, pa ću ti predložiti vino.",
+    "thinking": "Alek razmišlja…",
+    "suggestions": {
+      "s1": "Danas kuvam losos i povrće na pari. Šta da pijem?",
+      "s2": "Treba mi poklon za rođendan.",
+      "s3": "Roštilj sa društvom u subotu."
+    },
+    "reply": {
+      "belo": "Odlično! Predlažem sveže belo vino sa izraženom kiselošću. Probaj ovaj izbor:",
+      "crveno": "Za to ide nešto punije. Predlažem crveno vino sa mekim taninima:",
+      "rose": "Predlažem rosé — dovoljno lagano, a taman dovoljno voćno:",
+      "pjenusavo": "Prilika traži mehuriće. Evo mog izbora:"
+    }
+  },
+  "cart": {
+    "title": "Korpa",
+    "empty": "Korpa je prazna.",
+    "emptyHint": "Pusti Aleka da ti nađe nešto.",
+    "remove": "Ukloni",
+    "increase": "Dodaj još jedno",
+    "decrease": "Smanji količinu",
+    "delivery": "Dostava",
+    "total": "Ukupno",
+    "checkout": "Nastavi na plaćanje",
+    "keepShopping": "Nastavi kupovinu"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "stepAddress": "Adresa",
+    "stepDelivery": "Dostava",
+    "stepPayment": "Plaćanje",
+    "addressTitle": "Adresa dostave",
+    "fullName": "Ime i prezime",
+    "address": "Adresa",
+    "city": "Grad",
+    "phone": "Broj telefona",
+    "deliveryTitle": "Način dostave",
+    "standard": "Standardna dostava",
+    "standardNote": "1–2 radna dana",
+    "express": "Ekspres dostava",
+    "expressNote": "Isti dan, do 18h",
+    "paymentTitle": "Način plaćanja",
+    "card": "Kartica",
+    "cardNote": "Visa, Mastercard, Dina",
+    "cash": "Pouzećem",
+    "cashNote": "Plaćaš kuriru pri preuzimanju",
+    "continue": "Nastavi",
+    "placeOrder": "Poruči",
+    "required": "Ovo polje je obavezno",
+    "successTitle": "Hvala!",
+    "successBody": "Tvoja porudžbina je primljena. Javićemo ti se čim krene.",
+    "backHome": "Nazad na početnu"
+  },
+  "sets": {
+    "title": "Setovi",
+    "subtitle": "Pažljivo odabrani setovi za svaku priliku.",
+    "bottles_one": "{{count}} flaša",
+    "bottles_few": "{{count}} flaše",
+    "bottles_other": "{{count}} flaša"
+  },
+  "favorites": {
+    "title": "Favoriti",
+    "empty": "Još nemaš sačuvanih vina.",
+    "emptyHint": "Klikni na srce na bilo kom vinu."
+  },
+  "profile": {
+    "title": "Profil",
+    "note": "Prijava i nalog stižu uskoro. Za sada je sve mock.",
+    "orders": "Moje porudžbine",
+    "addresses": "Adrese",
+    "settings": "Podešavanja",
+    "language": "Jezik"
+  },
+  "trending": {
+    "title": "Trending",
+    "subtitle": "Otkrij šta drugi danas piju i vole."
+  },
+  "today": {
+    "title": "Današnja preporuka",
+    "subtitle": "Alek svakog dana bira jedno vino za tebe."
+  },
+  "footer": {
+    "shop": "Kupovina",
+    "about": "O nama",
+    "help": "Pomoć",
+    "aboutUs": "Naša priča",
+    "contact": "Kontakt",
+    "delivery": "Dostava i plaćanje",
+    "returns": "Reklamacije",
+    "terms": "Uslovi korišćenja",
+    "privacy": "Politika privatnosti",
+    "rights": "Sva prava zadržana.",
+    "disclaimer": "Prodaja alkoholnih pića dozvoljena je samo punoletnim licima."
+  },
+  "notFound": {
+    "title": "Ova stranica ne postoji",
+    "body": "Možda je popila koju previše.",
+    "cta": "Nazad na početnu"
+  }
+}

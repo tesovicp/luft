@@ -1,0 +1,117 @@
+@import 'tailwindcss';
+
+/* ---------------------------------------------------------------------------
+   LUFT design tokens.
+   Colours sampled directly from the approved mock (vino2507 / vino-mob-2507);
+   the five situation colours come from the prototype's own stylesheet, which
+   carries the authored values rather than the JPEG-compressed ones.
+   --------------------------------------------------------------------------- */
+@theme {
+  --color-forest: #302e15;
+  --color-forest-deep: #211e0f;
+  --color-forest-soft: #3d3a1d;
+
+  --color-navy: #0f2032;
+  --color-navy-soft: #16293d;
+
+  --color-wine: #611718;
+  --color-wine-deep: #411a15;
+  --color-wine-bright: #7d2226;
+
+  --color-rust: #a63a0b;
+  --color-ember: #e2611f;
+
+  --color-cream: #f3e7db;
+  --color-cream-bright: #f9f2e9;
+  --color-sand: #e3d9cd;
+  --color-card: #f6e8db;
+  --color-ink: #2b2418;
+  --color-ink-soft: #6b5f4f;
+  --color-line: #d9cbb9;
+
+  /* Situation palette */
+  --color-sit-dinner: #777239;
+  --color-sit-date: #96332f;
+  --color-sit-friends: #c45329;
+  --color-sit-gift: #5b7889;
+  --color-sit-unsure: #aa9270;
+
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1rem;
+  --radius-band: 1.375rem;
+
+  --animate-marquee: marquee 42s linear infinite;
+  --animate-rise: rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* The brand leans on wide-tracked uppercase for anything navigational. */
+  ::selection {
+    background-color: var(--color-ember);
+    color: var(--color-cream-bright);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ember);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Marquee: pure CSS so it stays on the compositor. Anyone who has asked the
+   OS for less motion gets a plain scroller instead. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .marquee-viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+}
